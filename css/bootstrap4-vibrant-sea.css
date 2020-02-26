@@ -58,7 +58,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 @media screen and (max-width: 992px) {
     #parallax {
-        background-attachment: scroll;
+        background-attachment: scroll!important;
     }
 }
 
