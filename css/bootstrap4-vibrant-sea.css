@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Pirate Font';
+  src: url('../Fonts/NugieRomantic.woff2') format('woff2'),
+      url('../Fonts/NugieRomantic.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -48,10 +56,16 @@ html {
       background-position: 55%;
     }
   }
+  /*
   @font-face {
-    font-family:"Pirate Font";
-    src: url("NugieRomantic-BEoV.ttf") format("truetype");
-  }
+    font-family:"PirateFont";
+    src: url('NugieRomantic.woff2') format("woff2"),
+    url('NugieRomantic.woff') format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }*/
+
+  
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -2263,12 +2277,9 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #0f90ff;
-  border-color: #0f90ff; }
+  background-color: #122762;}
   .btn-primary:hover {
-    color: #fff;
-    background-color: #007de8;
-    border-color: #0076db; }
+    color: #fff;}
   .btn-primary:focus, .btn-primary.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(51, 161, 255, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(51, 161, 255, 0.5); }
@@ -5732,7 +5743,7 @@ button.bg-warning:focus {
   background-color: #ffaf28 !important; }
 
 .bg-danger {
-  background-color: #cc152e !important; }
+  background-color: #2C76CD !important; }
 
 a.bg-danger:hover, a.bg-danger:focus,
 button.bg-danger:hover,
